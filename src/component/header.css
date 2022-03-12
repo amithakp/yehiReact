@@ -1,0 +1,23 @@
+#help {
+    margin-right: 2px;
+  }
+  
+  #login {
+    margin-left: 10px;
+  }
+  .container-fluid {
+    padding: 25px 30px !important;
+    background: #FBFBFB;
+  }
+
+  .navbar-brand{ 
+    width: 76px;
+    height: 35px;
+    position: relative;
+  }
+img{
+    margin-top: -68px;
+    width: 128px;
+    /* height: fit-content; */
+    position: absolute;
+}

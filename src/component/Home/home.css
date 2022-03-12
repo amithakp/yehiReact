@@ -1,0 +1,452 @@
+.mainTilecontainer {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://i.ibb.co/QvDNbCM/Rectangle-2.png");
+  background-repeat: no-repeat;
+  color: rgb(46, 43, 43);
+  background-size: cover;
+  margin-top: -22px;
+  background-size: 100% 600px; /*img to fix*/
+  }
+  /* main heading */
+  .heading{
+    padding:1px;
+  }
+.text-center {
+  position: absolute;
+  width: 925px;
+  height: 467px;
+  left: 48px;
+  top: 288px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 87px;
+  color: #FBFBFB;
+}
+
+.subHeading {
+    /* text-align: left; */
+    position: absolute;
+    width: 871px;
+    height: 226px;
+    left: 97px;
+    top: 471px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify; 
+    color: #FBFBFB;
+  }
+
+  /* icon sections */
+.tileConatainerIcon{
+    width: 100%;
+    height: 100%;
+    margin-top: 1px;
+    padding-left: 140px;
+    margin-bottom: 66px;
+    background-image: url(https://i.ibb.co/dQtQGf0/Rectangle-3.png);
+  }
+  
+  .column {
+    float: left;
+    width: 220px;
+    height: 220px;
+    padding: 50px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    background-color:rgb(248, 248, 248);
+    margin-right: 65px;
+    margin-top: 12px;
+  }
+  /* #one{
+    background-color:rgb(248, 248, 248);
+    margin-right: 65px;
+    margin-top: 12px;
+  }
+  #two{
+    background-color:rgb(248, 248, 248);
+    margin-right: 65px;
+    margin-top: 12px;
+  }
+  #three{
+    background-color:rgb(248, 248, 248);
+    margin-right: 65px;
+    margin-top: 12px;
+  }
+  #four{
+    background-color: rgb(248, 248, 248);
+    margin-right: 65px;
+    margin-top: 12px;
+  } */
+  .row {
+    margin-left: 24px;
+    padding: 0px;
+  }
+
+  .icon1{
+    background-image: url("https://i.ibb.co/TtfMNJX/van-1.png");
+    /* width: 100%;
+    background-repeat: no-repeat;
+    height: 120px;
+    margin-left: 17px; */
+    position: relative;
+    width: 192%;
+    height: 140px;
+    left: -5px;
+    background-repeat: no-repeat;
+    top: -13px;
+  }
+  .icon2{
+    background-image: url("https://i.ibb.co/C9GTtCk/van-4.png");
+    /* width: 100%;
+    background-repeat: no-repeat;
+    height: 120px;
+    margin-left: 17px; */
+    position: relative;
+    width: 192%;
+    height: 140px;
+    left: 10px;
+    background-repeat: no-repeat;
+    top: 4px;
+  }
+  .icon3{
+    background-image: url("https://i.ibb.co/7bDYQ32/van-3.png");
+    /* width: 100%;
+    background-repeat: no-repeat;
+    height: 120px;
+    margin-left: 17px; */
+    position: relative;
+    width: 192%;
+    height: 140px;
+    left: 6px;
+    background-repeat: no-repeat;
+    top: -9px;
+  }
+  .icon4{
+    background-image: url("https://i.ibb.co/GHtxLpt/van-2.png");
+    /* width: 100%;
+    background-repeat: no-repeat;
+    height: 120px;
+    margin-left: 17px; */
+    position: relative;
+    width: 192%;
+    height: 140px;
+    left: 17px;
+    background-repeat: no-repeat;
+    top: 8px;
+  }
+  /* image left deccription right */
+
+/* .tileContainer{
+    margin-left:5%;
+  }
+  .media{
+     margin-top:12%;
+  }
+  .media-object{
+    width:440px;
+    height:400px;
+  }
+  .media-left{
+    width: 730px;
+    height: 400px;
+    position: relative;
+    float: left;
+  }
+  .media-body{
+        float: left;
+    margin-top: -60px;
+    position: relative;
+
+  }
+  .mediaHeading {
+    color:red;
+  }
+  
+  .center{
+    line-height:1.5;
+  } */
+
+  .media{
+      margin-top:8%;
+      /* padding-top: 13px; */
+      
+  }
+
+  .media-object{ 
+    width: 300px !important;
+    height: 300px!important;
+    float: left;
+    margin-left: -99px;
+    position: absolute; 
+  }
+
+  .media-body{ 
+    position: relative;
+    margin-top: 25px;
+    margin-left: 250px;
+  }
+  .media-heading{ 
+      color:red;
+      margin-top:25px;
+}
+.mediaSubHeading{
+    color:darkcyan;
+} 
+
+/* .media-object {
+    width: 300px !important;
+    height: 300px!important;
+    float: left;
+    position: relative;
+}
+.media-body {
+    position: relative;
+    margin-left: 298px;
+}
+
+/* CCCOOOORRRREEEEEECTTTT   .container {
+    position: absolute;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+.media {
+    position: relative;
+    margin: -13px;
+    padding: 5px;
+    display: flex;
+}
+.media-object{
+    flex: 0 0 150px;
+    width: 277px;
+    margin-top: 12px;
+}
+.media-left{
+    max-width: 150px;
+    flex:0 0 150px;
+}
+
+.media-body {
+    margin-left: 340px;
+    float: left;
+    position: absolute;
+} */
+/* truck */
+.truck{
+    width: 100%;
+    height:500px;
+    background-image: url("https://i.ibb.co/9W2Zsrn/Rectangle-3-1.png");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 500px;
+    position: relative;
+    margin-top: 77px;
+  }
+
+  .tileHead{
+    margin-left: 116px;
+    margin-top: 31px;
+    font-size: 61px;
+    position: relative;
+  }
+
+  /* card images */
+  .card {
+    float: left;
+    height: 450px;
+    width: 300px;
+    margin: 2%;
+  }
+  .card>img {
+    height: 193px;
+    width: 275px;
+    position: absolute;
+    margin-top: 19px;
+  }
+  .cardHead{
+      margin-top: 220px;
+  }
+  #cardPadding{
+      margin-left: -55px;
+  }
+
+  /* tile head2 */
+  .tileHead2{
+    margin-left: 116px;
+    margin-top: -61px;
+    font-size: 61px;
+    position: absolute;
+  }
+
+  .tileImage{
+    width: 100%;
+    height:500px;
+    background-image:url("https://i.ibb.co/2Y05phv/Rectangle-4.png");
+    background-size: 100% 500px;
+    position: relative;
+    margin-top: 77px;
+  }
+
+  /* media 2 */
+.mediaMain2{
+  margin-top: 48px;
+  padding-left: 146px;
+  position: absolute;
+  padding-bottom: 26px;
+  margin-bottom: 40px;
+  background-image: url("https://i.ibb.co/dQtQGf0/Rectangle-3.png");
+  background-size: 100% 500px;
+  }
+  .media2{
+    margin-top:3%; 
+  }
+
+.media-object2{ 
+  width: 300px!important;
+  height: 300px!important;
+  float: left;
+  margin-top: -11px;
+  margin-left: -99px;
+  position: relative;
+}
+
+.media-body2{ 
+  position: relative;
+}
+.media-heading2{ 
+    color:red;
+    margin-top:25px;
+}
+.mediaSubHeading2{
+  color:darkcyan;
+} 
+/* media right */
+.mediaMain3{
+  margin-top: 565px;
+  padding-top: 100px;
+  padding-left: 146px;
+  position: absolute;
+  background-image: url("https://i.ibb.co/dQtQGf0/Rectangle-3.png");
+  background-size: 100% 500px;
+}
+.media3{
+  margin-top: 3%;
+  /* float: left; */
+  margin-left: -109px;
+  padding: 12px; 
+}
+
+.media-object3{ 
+  width: 300px!important;
+  height: 300px!important;
+  float: right;
+  margin-top: -11px;
+  position: relative;
+}
+.media-body3{ 
+  position: relative;
+}
+/* three boxes */
+.boxMain{
+  width: 100%;
+  margin-top: 1167px;
+  padding-left: 126px;
+  margin-bottom: 50px;
+  position: relative;
+}
+.boxColumn {
+  width: 220px;
+  height: 220px;
+  margin-right: 201px;
+  background-color:#C4C4C4;;
+  margin-top: 12px;
+}
+/* city image */
+.city{
+  width: 100%;
+  height:500px;
+  background-image:url("https://i.ibb.co/yVrPxFg/Rectangle-25.png");
+  background-size: 100% 500px;
+  position: absolute;
+  margin-top: 56px;
+}
+/* help sectipn */
+.helpBox{
+  width: 100%;
+  height: 100%;
+  margin-top: 722px;
+  padding-left: 81px;
+  padding-top: 17px;
+  margin-bottom: 50px;
+  /* position: absolute; */
+}
+.helped{
+  margin-top: 613px;
+  font-size: 38px;
+  margin-left: 75px;
+  position: absolute;
+}
+.helpColumn {
+  width: 399px;
+  height: 434px;
+  /* float: left; */
+  margin-right: 8px;
+  margin-top: 12px;
+}
+.helpBox1{
+  width: 335px;
+  height: 416px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  background-image:url("https://i.ibb.co/X4ZcXf2/Rectangle-22.png");
+}
+.helpBoxName1{
+  position: absolute;
+  float: left;
+  margin-top: 323px;
+  margin-left: 35px;
+  font-size: 24px;
+}
+.helpBox2{
+  width: 335px;
+  height: 416px;
+  /* margin-left: -148px; */
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  background-image:url("https://i.ibb.co/rGscm1T/Rectangle-23.png");
+}
+.helpBoxName2{
+  position: absolute;
+  float: left;
+  margin-top: 323px;
+  margin-left: 35px;
+  font-size: 24px;
+}
+.helpBox3{
+  width: 335px;
+  height: 416px;
+  /* margin-left: -148px; */
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+  background-image:url("https://i.ibb.co/n80nRj6/Rectangle-24.png");
+}
+.helpBoxName3{
+  position: absolute;
+  float: left;
+  margin-top: 323px;
+  margin-left: 35px;
+  font-size: 24px;
+}
