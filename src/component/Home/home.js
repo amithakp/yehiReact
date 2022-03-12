@@ -120,15 +120,15 @@ const Home = () => {
                 </div>
             </div>
             {/* THREE BOXES section */}
-            <div className="boxMain col-xl-12 col-md-12 col-sm-12">
-                <div className="col-xl-12 col-md-12 col-sm-12 row">
-                    <div className="boxColumn col-xl-12 col-md-6 col-sm-6">
+            <div className="boxMain col">
+                <div className="col row">
+                    <div className="boxColumn col">
                         <div className="box1"></div>
                     </div>
-                    <div className="boxColumn col-xl-12 col-md-6 col-sm-6">
+                    <div className="boxColumn col">
                         <div className="box2"></div>
                     </div>
-                    <div className="boxColumn col-xl-12 col-md-6 col-sm-6">
+                    <div className="boxColumn col">
                         <div className="box3"></div>
                     </div>
                 </div>   
@@ -139,15 +139,15 @@ const Home = () => {
             <h2 className="helped">How we have helped industries</h2>
             <div className="helpBox col-xl-12 col-md-12 col-sm-12">
                 <div className="col-xl-12 col-md-12 col-sm-12 row">
-                    <div className="helpColumn col-xl-12 col-md-6 col-sm-6">
+                    <div className="helpColumn col">
                         <div className="helpBox1"></div>
                         <div className="helpBoxName1">Automotive & industrial</div>
                     </div>
-                    <div className="helpColumn col-xl-12 col-md-6 col-sm-6">
+                    <div className="helpColumn col">
                         <div className="helpBox2"></div>
                         <div className="helpBoxName2">Chemical & Agriculture</div>
                     </div>
-                    <div className="helpColumn col-xl-12 col-md-6 col-sm-6">
+                    <div className="helpColumn col">
                         <div className="helpBox3"></div>
                         <div className="helpBoxName3">Healthcare</div>
                     </div>

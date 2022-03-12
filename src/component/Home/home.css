@@ -12,6 +12,7 @@
   .heading{
     padding:1px;
   }
+
 .text-center {
   position: absolute;
   width: 925px;
@@ -27,277 +28,187 @@
 }
 
 .subHeading {
-    /* text-align: left; */
-    position: absolute;
-    width: 871px;
-    height: 226px;
-    left: 97px;
-    top: 471px;
+  /* text-align: left; */
+  position: absolute;
+  width: 871px;
+  height: 226px;
+  left: 97px;
+  top: 471px;
 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 28px;
-    text-align: justify; 
-    color: #FBFBFB;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify; 
+  color: #FBFBFB;
   }
 
   /* icon sections */
 .tileConatainerIcon{
-    width: 100%;
-    height: 100%;
-    margin-top: 1px;
-    padding-left: 140px;
-    margin-bottom: 66px;
-    background-image: url(https://i.ibb.co/dQtQGf0/Rectangle-3.png);
-  }
+  width: 100%;
+  height: 100%;
+  margin-top: 1px;
+  padding-left: 140px;
+  margin-bottom: 66px;
+  background-image: url(https://i.ibb.co/dQtQGf0/Rectangle-3.png);
+}
   
   .column {
-    float: left;
-    width: 220px;
-    height: 220px;
-    padding: 50px;
-    text-align: center;
-    font-size: 25px;
-    cursor: pointer;
-    color: white;
-    background-color:rgb(248, 248, 248);
-    margin-right: 65px;
-    margin-top: 12px;
+  float: left;
+  width: 220px;
+  height: 220px;
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  background-color:rgb(248, 248, 248);
+  margin-right: 65px;
+  margin-top: 12px;
   }
-  /* #one{
-    background-color:rgb(248, 248, 248);
-    margin-right: 65px;
-    margin-top: 12px;
-  }
-  #two{
-    background-color:rgb(248, 248, 248);
-    margin-right: 65px;
-    margin-top: 12px;
-  }
-  #three{
-    background-color:rgb(248, 248, 248);
-    margin-right: 65px;
-    margin-top: 12px;
-  }
-  #four{
-    background-color: rgb(248, 248, 248);
-    margin-right: 65px;
-    margin-top: 12px;
-  } */
+  
   .row {
-    margin-left: 24px;
-    padding: 0px;
+  margin-left: 24px;
+  padding: 0px;
   }
 
   .icon1{
-    background-image: url("https://i.ibb.co/TtfMNJX/van-1.png");
-    /* width: 100%;
-    background-repeat: no-repeat;
-    height: 120px;
-    margin-left: 17px; */
-    position: relative;
-    width: 192%;
-    height: 140px;
-    left: -5px;
-    background-repeat: no-repeat;
-    top: -13px;
+  background-image: url("https://i.ibb.co/TtfMNJX/van-1.png");
+  /* width: 100%;
+  background-repeat: no-repeat;
+  height: 120px;
+  margin-left: 17px; */
+  position: relative;
+  width: 192%;
+  height: 140px;
+  left: -5px;
+  background-repeat: no-repeat;
+  top: -13px;
   }
   .icon2{
-    background-image: url("https://i.ibb.co/C9GTtCk/van-4.png");
-    /* width: 100%;
-    background-repeat: no-repeat;
-    height: 120px;
-    margin-left: 17px; */
-    position: relative;
-    width: 192%;
-    height: 140px;
-    left: 10px;
-    background-repeat: no-repeat;
-    top: 4px;
+  background-image: url("https://i.ibb.co/C9GTtCk/van-4.png");
+  /* width: 100%;
+  background-repeat: no-repeat;
+  height: 120px;
+  margin-left: 17px; */
+  position: relative;
+  width: 192%;
+  height: 140px;
+  left: 10px;
+  background-repeat: no-repeat;
+  top: 4px;
   }
   .icon3{
-    background-image: url("https://i.ibb.co/7bDYQ32/van-3.png");
-    /* width: 100%;
-    background-repeat: no-repeat;
-    height: 120px;
-    margin-left: 17px; */
-    position: relative;
-    width: 192%;
-    height: 140px;
-    left: 6px;
-    background-repeat: no-repeat;
-    top: -9px;
+  background-image: url("https://i.ibb.co/7bDYQ32/van-3.png");
+  /* width: 100%;
+  background-repeat: no-repeat;
+  height: 120px;
+  margin-left: 17px; */
+  position: relative;
+  width: 192%;
+  height: 140px;
+  left: 6px;
+  background-repeat: no-repeat;
+  top: -9px;
   }
   .icon4{
-    background-image: url("https://i.ibb.co/GHtxLpt/van-2.png");
-    /* width: 100%;
-    background-repeat: no-repeat;
-    height: 120px;
-    margin-left: 17px; */
-    position: relative;
-    width: 192%;
-    height: 140px;
-    left: 17px;
-    background-repeat: no-repeat;
-    top: 8px;
-  }
-  /* image left deccription right */
-
-/* .tileContainer{
-    margin-left:5%;
-  }
-  .media{
-     margin-top:12%;
-  }
-  .media-object{
-    width:440px;
-    height:400px;
-  }
-  .media-left{
-    width: 730px;
-    height: 400px;
-    position: relative;
-    float: left;
-  }
-  .media-body{
-        float: left;
-    margin-top: -60px;
-    position: relative;
-
-  }
-  .mediaHeading {
-    color:red;
+  background-image: url("https://i.ibb.co/GHtxLpt/van-2.png");
+  /* width: 100%;
+  background-repeat: no-repeat;
+  height: 120px;
+  margin-left: 17px; */
+  position: relative;
+  width: 192%;
+  height: 140px;
+  left: 17px;
+  background-repeat: no-repeat;
+  top: 8px;
   }
   
-  .center{
-    line-height:1.5;
-  } */
-
   .media{
-      margin-top:8%;
-      /* padding-top: 13px; */
-      
+  margin-top:8%;
+  /* padding-top: 13px; */    
   }
 
   .media-object{ 
-    width: 300px !important;
-    height: 300px!important;
-    float: left;
-    margin-left: -99px;
-    position: absolute; 
+  width: 300px !important;
+  height: 300px!important;
+  float: left;
+  margin-left: -99px;
+  position: absolute; 
   }
 
-  .media-body{ 
-    position: relative;
-    margin-top: 25px;
-    margin-left: 250px;
-  }
-  .media-heading{ 
-      color:red;
-      margin-top:25px;
+.media-body{ 
+  position: relative;
+  margin-top: 25px;
+  margin-left: 250px;
+}
+.media-heading{ 
+  color:red;
+  margin-top:25px;
 }
 .mediaSubHeading{
-    color:darkcyan;
+  color:darkcyan;
 } 
 
-/* .media-object {
-    width: 300px !important;
-    height: 300px!important;
-    float: left;
-    position: relative;
-}
-.media-body {
-    position: relative;
-    margin-left: 298px;
-}
-
-/* CCCOOOORRRREEEEEECTTTT   .container {
-    position: absolute;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
-    align-items: center;
-}
-.media {
-    position: relative;
-    margin: -13px;
-    padding: 5px;
-    display: flex;
-}
-.media-object{
-    flex: 0 0 150px;
-    width: 277px;
-    margin-top: 12px;
-}
-.media-left{
-    max-width: 150px;
-    flex:0 0 150px;
-}
-
-.media-body {
-    margin-left: 340px;
-    float: left;
-    position: absolute;
-} */
 /* truck */
 .truck{
-    width: 100%;
-    height:500px;
-    background-image: url("https://i.ibb.co/9W2Zsrn/Rectangle-3-1.png");
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    background-size: 100% 500px;
-    position: relative;
-    margin-top: 77px;
-  }
+  width: 100%;
+  height:500px;
+  background-image: url("https://i.ibb.co/9W2Zsrn/Rectangle-3-1.png");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 100% 500px;
+  position: relative;
+  margin-top: 77px;
+}
 
-  .tileHead{
-    margin-left: 116px;
-    margin-top: 31px;
-    font-size: 61px;
-    position: relative;
-  }
+.tileHead{
+  margin-left: 116px;
+  margin-top: 31px;
+  font-size: 61px;
+  position: relative;
+}
 
   /* card images */
-  .card {
-    float: left;
-    height: 450px;
-    width: 300px;
-    margin: 2%;
-  }
-  .card>img {
-    height: 193px;
-    width: 275px;
-    position: absolute;
-    margin-top: 19px;
-  }
-  .cardHead{
-      margin-top: 220px;
-  }
-  #cardPadding{
-      margin-left: -55px;
-  }
+.card {
+  float: left;
+  height: 450px;
+  width: 300px;
+  margin: 2%;
+}
+.card>img {
+  height: 193px;
+  width: 275px;
+  position: absolute;
+  margin-top: 19px;
+}
+.cardHead{
+    margin-top: 220px;
+}
+#cardPadding{
+    margin-left: -55px;
+}
 
-  /* tile head2 */
-  .tileHead2{
-    margin-left: 116px;
-    margin-top: -61px;
-    font-size: 61px;
-    position: absolute;
-  }
+/* tile head2 */
+.tileHead2{
+  margin-left: 116px;
+  margin-top: -61px;
+  font-size: 61px;
+  position: absolute;
+}
 
-  .tileImage{
-    width: 100%;
-    height:500px;
-    background-image:url("https://i.ibb.co/2Y05phv/Rectangle-4.png");
-    background-size: 100% 500px;
-    position: relative;
-    margin-top: 77px;
-  }
+.tileImage{
+  width: 100%;
+  height:500px;
+  background-image:url("https://i.ibb.co/2Y05phv/Rectangle-4.png");
+  background-size: 100% 500px;
+  position: relative;
+  margin-top: 77px;
+}
 
-  /* media 2 */
+/* media 2 */
 .mediaMain2{
   margin-top: 48px;
   padding-left: 146px;
@@ -306,10 +217,10 @@
   margin-bottom: 40px;
   background-image: url("https://i.ibb.co/dQtQGf0/Rectangle-3.png");
   background-size: 100% 500px;
-  }
-  .media2{
-    margin-top:3%; 
-  }
+}
+.media2{
+  margin-top:3%; 
+}
 
 .media-object2{ 
   width: 300px!important;
@@ -324,8 +235,8 @@
   position: relative;
 }
 .media-heading2{ 
-    color:red;
-    margin-top:25px;
+  color:red;
+  margin-top:25px;
 }
 .mediaSubHeading2{
   color:darkcyan;
@@ -385,7 +296,7 @@
   width: 100%;
   height: 100%;
   margin-top: 722px;
-  padding-left: 81px;
+  padding-left: 9px;
   padding-top: 17px;
   margin-bottom: 50px;
   /* position: absolute; */
