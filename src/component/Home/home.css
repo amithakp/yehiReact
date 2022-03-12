@@ -8,16 +8,16 @@
   margin-top: -22px;
   background-size: 100% 600px; /*img to fix*/
   }
-  /* main heading */
-  .heading{
-    padding:1px;
-  }
+/* main heading */
+.heading{
+  padding:1px;
+}
 
-.text-center {
+.textHead {
   position: absolute;
   width: 925px;
   height: 467px;
-  left: 48px;
+  left: 94px;
   top: 288px;
   font-family: 'Roboto';
   font-style: normal;
@@ -42,7 +42,7 @@
   line-height: 28px;
   text-align: justify; 
   color: #FBFBFB;
-  }
+}
 
   /* icon sections */
 .tileConatainerIcon{
