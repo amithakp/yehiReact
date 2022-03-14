@@ -10,24 +10,24 @@ const Home = () => {
                 <div className="mainTilecontainer">
                     {/* text on main image */}
                     <div className="heading">
-                        <span className="textHead"> Supply chain management and supply  engineering that plans</span> 
-                        <span className="subHeading">In military science, logistics is concerned with maintaining army supply lines while disrupting those of the enemy, since an armed force without resources and transportation is defenseless. Military logistics was already practiced in the ancient world and as the modern military has a significant need for logistics solutions, advanced implementations have been developed. In military logistics, logistics officers manage how and when to move resources to the places they are needed.</span>
+                        <div className="textHead"> Supply chain management and supply  engineering that plans</div> 
+                        <div className="subHeading">In military science, logistics is concerned with maintaining army supply lines while disrupting those of the enemy, since an armed force without resources and transportation is defenseless. Military logistics was already practiced in the ancient world and as the modern military has a significant need for logistics solutions, advanced implementations have been developed. In military logistics, logistics officers manage how and when to move resources to the places they are needed.</div>
                     </div>
                 </div>
             </div>
             {/* four icon section */}
-            <div className="tileConatainerIcon col-xl-12 col-md-12 col-sm-12">
-                <div className=" col-xl-12 col-md-12 col-sm-12 row">
-                    <div className="column col-xl-12 col-md-12 col-sm-12">
+            <div className="tileConatainerIcon  ">
+                <div className=" row">
+                    <div className="column  col-xl-6 col-xl-6 col-md-6 col-sm-12">
                         <div className="icon1"></div>
                     </div>
-                    <div className="column col-xl-12 col-md-12 col-sm-12">
+                    <div className="column  col-xl-6 col-xl-6 col-md-6 col-sm-12">
                         <div className="icon2"></div>
                     </div>
-                    <div className="column col-xl-12 col-md-12 col-sm-12">
+                    <div className="column  col-xl-6 col-xl-6 col-md-6 col-sm-12">
                         <div className="icon3"></div>
                     </div>
-                    <div className="column col-xl-12 col-md-12 col-sm-12">
+                    <div className="column  col-xl-6 col-xl-6 col-md-6 col-sm-12">
                         <div className="icon4"></div>
                      </div>
                 </div>   
@@ -120,15 +120,15 @@ const Home = () => {
                 </div>
             </div>
             {/* THREE BOXES section */}
-            <div className="boxMain col">
-                <div className="col row">
-                    <div className="boxColumn col">
+            <div className="boxMain ">
+                <div className=" row">
+                    <div className="boxColumn ">
                         <div className="box1"></div>
                     </div>
-                    <div className="boxColumn col">
+                    <div className="boxColumn ">
                         <div className="box2"></div>
                     </div>
-                    <div className="boxColumn col">
+                    <div className="boxColumn ">
                         <div className="box3"></div>
                     </div>
                 </div>   
@@ -137,17 +137,17 @@ const Home = () => {
                 {   /* <img src="https://i.ibb.co/9W2Zsrn/Rectangle-3-1.png"/> */}
             </div>
             <h2 className="helped">How we have helped industries</h2>
-            <div className="helpBox col-xl-12 col-md-12 col-sm-12">
-                <div className="col-xl-12 col-md-12 col-sm-12 row">
-                    <div className="helpColumn col">
+            <div className="helpBox ">
+                <div className="row">
+                    <div className="helpColumn ">
                         <div className="helpBox1"></div>
                         <div className="helpBoxName1">Automotive & industrial</div>
                     </div>
-                    <div className="helpColumn col">
+                    <div className="helpColumn ">
                         <div className="helpBox2"></div>
                         <div className="helpBoxName2">Chemical & Agriculture</div>
                     </div>
-                    <div className="helpColumn col">
+                    <div className="helpColumn ">
                         <div className="helpBox3"></div>
                         <div className="helpBoxName3">Healthcare</div>
                     </div>

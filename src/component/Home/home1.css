@@ -1,0 +1,54 @@
+.mainTilecontainer {
+    width: 100%;
+    /* height: 600px; */
+    background: url("https://i.ibb.co/QvDNbCM/Rectangle-2.png");
+    background-repeat: no-repeat;
+    /* color: rgb(46, 43, 43); */
+    background-size: cover;
+    margin-top: -22px;
+    background-size: cover; 
+    
+    }
+  .jumbotron{
+    background: url("https://i.ibb.co/QvDNbCM/Rectangle-2.png");
+    width: 100%;
+    height: 600px;
+    background-size: 100% 600px;
+  }
+  .heading{
+    /* padding:1px; */
+    width:80%;
+    height:40%;
+    background-color:red;
+  }
+  
+  .textHead {
+    position: absolute;
+    width: 80%;
+    height: 467px;
+    left: 94px;
+    top: 288px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 87px;
+    color: #FBFBFB;
+  }
+  
+  .subHeading {
+    
+    position: absolute;
+    width: 80%;
+    height: 226px;
+    left: 97px;
+    top: 471px;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify; 
+    color: #FBFBFB;
+  }
