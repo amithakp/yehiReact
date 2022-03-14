@@ -1,57 +1,34 @@
+
 .mainTilecontainer {
-  width: 1440px;
-  height: 720px;
+  width: 100%;
+  height: auto;
   background-image: url("https://i.ibb.co/QvDNbCM/Rectangle-2.png");
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   color: rgb(46, 43, 43);
   background-size: cover;
   margin-top: -22px;
   /* background-size: 1440px 600px;  */
   margin-top: 1px;
+  background-size: 100% 722px;
   }
 
-
-
-.textHead {
-  position: absolute;
-  width: 925px;
-  height: 467px;
-  left: 94px;
-  top: 288px;
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 64px;
-  line-height: 87px;
-  color: #FBFBFB;
-}
-
-.subHeading {
-  
-  position: absolute;
-  width: 871px;
-  height: 226px;
-  left: 97px;
-  top: 471px;
-
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: justify; 
-  color: #FBFBFB;
-}
-
 /* .container{
-  background-color: red;
+
 } */
-.img-fluid{
-  background-image: url("https://i.ibb.co/QvDNbCM/Rectangle-2.png");
-  max-width: 100%;
-  background-size: 100% 600px;
-  height:auto;
-  position:absolute;
+h1{
+  font-size:62px;
+  color: #FBFBFB;
+  font-family: 'Roboto';
+  margin-left: 92px;
+  width:80%;
+}
+p{
+  font-size:24px;
+  color: #FBFBFB;
+  font-family: 'Roboto';
+  margin-left: 92px;
+  width:80%;
+  height:10%;
 }
   /* icon sections */
 .tileConatainerIcon{
@@ -136,7 +113,7 @@
   }
   
   .media{
-  margin-top:8%;
+  margin-top:0%;
   padding-top: 13px;    
   }
 
