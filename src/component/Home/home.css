@@ -121,7 +121,7 @@ p{
   width: 300px !important;
   height: 300px!important;
   float: left;
-  margin-left: -99px;
+  margin-left: -63px;
   position: absolute; 
   }
 
@@ -133,7 +133,7 @@ p{
 }
 .media-heading{ 
   color:red;
-  margin-top:25px;
+  margin-top: -69px;
 }
 .mediaSubHeading{
   color:darkcyan;
