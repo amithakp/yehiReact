@@ -177,7 +177,7 @@ p{
     margin-top: 220px;
 }
 #cardPadding{
-    margin-left: -55px;
+    margin-left: -5px;
 }
 
 /* tile head2 */
@@ -386,6 +386,11 @@ p{
     padding-left: 300px;
   }
 }
+@media(max-width:1200px){
+  #cardPadding {
+    margin-left: 231px;
+  }
+}
 
 @media(max-width:1195px){
   .boxColumn {
@@ -404,6 +409,9 @@ p{
 @media(max-width:1110px){
   .helpBox{
     padding-left: 200px;
+  }
+  #cardPadding {
+    margin-left: 167px;
   }
 }
 @media(max-width:1060px){
@@ -426,6 +434,9 @@ p{
   .helpBox{
    padding-left: 98px;
   }
+  #cardPadding {
+    margin-left: 99px;
+  }
 }
 @media(max-width:765px){
   .boxColumn {
@@ -433,6 +444,14 @@ p{
   }
   .helpBox{
     padding-left: 5px;
+  }
+  #cardPadding {
+    margin-left: 52px;
+  }
+}
+@media(max-width:684px){
+  #cardPadding {
+    margin-left: 9px;
   }
 }
 @media(max-width:603px){
@@ -452,5 +471,13 @@ p{
   }
   .helpBox{
     padding-left: 0px;
+  }
+  #cardPadding {
+    margin-left: 2px;
+  }
+}
+@media(max-width:545px){
+  #cardPadding {
+    margin-left: -54px;
   }
 }

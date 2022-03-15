@@ -50,7 +50,7 @@ const Home = () => {
             <h2 className="tileHead">Loreom Ipsom</h2>
             {/* card images */}
             <div className="tileConatainerIcon col-xl-12 col-md-12 col-sm-12">
-                <div className=" col-xl-12 col-md-12 col-sm-12 row" id="cardPadding">
+                <div className=" col-xl-12 col-md-6 col-sm-12 row" id="cardPadding">
                     <div className="card">
                         <img src="https://i.ibb.co/vs0T6tt/Rectangle-13.png"/>
                         <h4 className="cardHead">
