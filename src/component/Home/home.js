@@ -9,7 +9,7 @@ const Home = () => {
              <div className="mainContainer">
                 <div className="mainTilecontainer">
                    <h1 className="responsive"> Supply chain management and supply  engineering that plans</h1> 
-                        <p>In military science, logistics is concerned with maintaining army supply lines while disrupting those of the enemy, since an armed force without resources and transportation is defenseless. Military logistics was already practiced in the ancient world and as the modern military has a significant need for logistics solutions, advanced implementations have been developed. In military logistics the modern military has a significant ncient world and as the modern military has a significant need for logistics solutions, advanced implementations have been developed. In military logistics the modern military has a significant</p>
+                        <p className="responsive">In military science, logistics is concerned with maintaining army supply lines while disrupting those of the enemy, since an armed force without resources and transportation is defenseless. Military logistics was already practiced in the ancient world and as the modern military has a significant need for logistics solutions, advanced implementations have been developed. In military logistics the modern military has a significant ncient world and as the modern military has a significant need for logistics solutions, advanced implementations have been developed. In military logistics the modern military has a significant</p>
                     </div>
             </div> 
             {/* four icon section */}
@@ -108,8 +108,8 @@ const Home = () => {
                         <img  className="media-object3" src="https://i.ibb.co/NxKrTXR/Rectangle-18.png" alt="media3 image"/>
                     </div>
                     <div className="media-body3">
-                        <h2 className="media-heading2"> the general staf</h2>
-                        <h5 className="mediaSubHeading2">Loreum : Ce mot me paraît être tout-à-fait nouveau, car je ne l'avais encore vu nulle part dans la littérature militaire. … il paraît le faire dériver du mot logis, étymologie singulière.
+                        <h2 className="media-heading3"> the general staf</h2>
+                        <h5 className="mediaSubHeading3">Loreum : Ce mot me paraît être tout-à-fait nouveau, car je ne l'avais encore vu nulle part dans la littérature militaire. … il paraît le faire dériver du mot logis, étymologie singulière.
                                 encore vu nulle part dans la littérature il paraît le faire dériver du mot logis, étymologie singulière  
                         </h5>
                         <button className="btn btn-success">Book Now</button>
@@ -119,13 +119,13 @@ const Home = () => {
             {/* THREE BOXES section */}
             <div className="boxMain ">
                 <div className=" row">
-                    <div className="boxColumn ">
+                    <div className="boxColumn  col-4">
                         <div className="box1"></div>
                     </div>
-                    <div className="boxColumn ">
+                    <div className="boxColumn  col-4">
                         <div className="box2"></div>
                     </div>
-                    <div className="boxColumn ">
+                    <div className="boxColumn  col-4">
                         <div className="box3"></div>
                     </div>
                 </div>   
@@ -151,14 +151,14 @@ const Home = () => {
                 </div>
             </div>
             {/* image left deccription right coreect */ }
-            <div className="media ">
+            <div className="media4 ">
                 <div className="media-left">
                     {/* <div className="media-object"></div> */}
-                    <img  className="media-object" src="https://i.ibb.co/Tm7st3k/Rectangle-10.png" alt="media image"/>
+                    <img  className="media-object4" src="https://i.ibb.co/Tm7st3k/Rectangle-10.png" alt="media image"/>
                 </div>
-                <div className="media-body">
-                    <h2 className="media-heading">Formerly the officers of the general staf</h2>
-                    <h5 className="mediaSubHeading">Logistique: Ce mot me paraît être tout-à-fait nouveau, car je ne l'avais encore vu nulle part dans la littérature militaire. … il paraît le faire dériver du mot logis, étymologie singulière.
+                <div className="media-body4">
+                    <h2 className="media-heading4">Formerly the officers of the general staf</h2>
+                    <h5 className="mediaSubHeading4">Logistique: Ce mot me paraît être tout-à-fait nouveau, car je ne l'avais encore vu nulle part dans la littérature militaire. … il paraît le faire dériver du mot logis, étymologie singulière.
                             ogistique: Ce mot me paraît être tout-à-fait nouveau, car je ne l'avais encore vu nulle part dans la littérature militaire. … il paraît le faire dériver du mot logis, étymologie singulière  
                     </h5>
                     <button className="btn btn-success">Book Now</button>
